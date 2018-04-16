@@ -5,7 +5,7 @@
     "keywords": ["yii2", "extension", "spam", "stopforumspam", "api"],
     "require": {
         "php": ">=5.4.0",
-        "yiisoft/yii2": "~2.0.14",
+        "yiisoft/yii2": "*",
         "denostr/stopforumspam": "~0.1.0"
     },
     "license": "MIT",

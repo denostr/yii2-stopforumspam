@@ -1,5 +1,10 @@
 # Yii2 StopForumSpam API Extension
 
+[![Latest Stable Version](https://poser.pugx.org/denostr/yii2-stopforumspam/v/stable)](https://packagist.org/packages/denostr/yii2-stopforumspam)
+[![Total Downloads](https://poser.pugx.org/denostr/yii2-stopforumspam/downloads)](https://packagist.org/packages/denostr/yii2-stopforumspam)
+[![Latest Unstable Version](https://poser.pugx.org/denostr/yii2-stopforumspam/v/unstable)](https://packagist.org/packages/denostr/yii2-stopforumspam)
+[![License](https://poser.pugx.org/denostr/yii2-stopforumspam/license)](https://packagist.org/packages/denostr/yii2-stopforumspam)
+
 ## Installation
 
 The preferred way to install this extension is through [composer](https://getcomposer.org/).
