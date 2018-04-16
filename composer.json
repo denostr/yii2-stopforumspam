@@ -1,0 +1,23 @@
+{
+    "name": "denostr/yii2-stopforumspam",
+    "description": "Yii2 Component for https://www.stopforumspam.com",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "extension", "spam", "stopforumspam", "api"],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "~2.0.14",
+        "denostr/stopforumspam": "~0.1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Denis Ostrovsky",
+            "email": "4deni.kiev@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "denostr\\stopforumspam\\yii\\": "src"
+        }
+    }
+}
