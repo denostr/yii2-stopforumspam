@@ -10,7 +10,7 @@
 The preferred way to install this extension is through [composer](https://getcomposer.org/).
 
 ```
-php composer.phar require denostr/yii2-stopforumspam "~0.1.0"
+composer require denostr/yii2-stopforumspam "~0.1.0"
 ```
 
 
@@ -21,6 +21,8 @@ or add
 ```
 
 to the `require` section of your `composer.json` file.
+
+Then add to config:
 
 ```
 'components' => [

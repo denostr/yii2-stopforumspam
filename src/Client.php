@@ -2,6 +2,13 @@
 
 namespace denostr\stopforumspam\yii;
 
+/**
+ * Yii2 component for stopforumspam
+ *
+ * @link https://www.stopforumspam.com
+ * @link https://github.com/denostr/yii2-stopforumspam
+ * @link https://github.com/denostr/stopforumspam
+*/
 class Client extends \yii\base\BaseObject
 {
     /**
@@ -29,6 +36,10 @@ class Client extends \yii\base\BaseObject
      */
     public $debug = false;
 
+    /**
+     * @return \denostr\stopforumspam\Client
+     * @throws \Exception
+     */
     public function init()
     {
         parent::init();
@@ -57,6 +68,11 @@ class Client extends \yii\base\BaseObject
         return $this->client;
     }
 
+    /**
+     * @param $name
+     * @param $params
+     * @return mixed
+     */
     public function __call($name, $params)
     {
         return call_user_func_array([$this->client, $name], $params);
